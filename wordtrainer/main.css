@@ -1,0 +1,281 @@
+body {
+  font-family: "Public Sans", sans-serif;
+  background-color: LightGray;  
+}
+
+
+.dot_yellow {
+                             height: 25px;
+                             width: 25px;
+                             background-color: yellow;
+                             border-radius: 50%;
+                             display: inline-block;
+                                                      }
+
+/* wide screen */
+@media (min-width: 768px) {
+  .input-dark {
+    width: auto;
+  }
+  .header-dropdown {
+  position: absolute;
+  top: 22px;
+  right: 30px;
+  width: 330px;
+  height: 20px; 
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+ }
+  .header-flipmode {
+  position: absolute;
+  top: 52px;
+  right: 30px;
+  width: 330px;
+  height: 20px; 
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+  }  
+    
+  .header-bar {
+  background-color: #292929;
+  height:100px;
+    }    
+  
+    .app-title {
+  text-align: left;
+  position: absolute;
+  top: 2px;
+  left: 20px;
+  width: 16px;
+  font-size: 1.5rem;
+  color: white; 
+  font-weight: bold;
+ } 
+
+    
+  .question {
+  text-align: center;
+  top: 10px;
+  font-size: 3rem;
+  height:80px;
+  color: black; 
+  font-weight: bold;
+  }
+
+.btn_sub {
+  text-align: center;
+  position: absolute;
+  border: 2px blue;
+  background-color: #34A56F;  
+  margin-right: 50;
+  right:100px;
+  width: 100px;
+  height: 30px;
+  margin-left:auto;
+  display:block;
+  top: 150px;
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+  }  
+
+.btn_flip {
+  text-align: center;
+  position: absolute;
+  border: 2px blue;
+  background-color: #34A56F;  
+  margin-right: 50;
+  left: 100px;
+  width: 100px;
+  height: 30px;
+  margin-left:auto;
+  display:block;
+  top: 150px;
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+  }  
+    
+.entry_typesubmit {
+  text-align: left;
+  position: absolute;
+  border: 2px blue;
+  background-color: white;  
+  margin-right: 50;
+  left: 50px;
+  width: 500px;
+  height: 30px;
+  margin-left: 50px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display:block;
+  top: 240px;
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+  }  
+
+.btn_typesubmit {
+  text-align: center;
+  position: absolute;
+  border: 2px blue;
+  background-color: #34A56F;  
+  margin-right: 50;
+  right:100px;
+  width: 100px;
+  height: 30px;
+  margin-left:auto;
+  display:block;
+  top: 240px;
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+  }  
+    
+}
+
+.display-3 {
+  font-size: 4.2rem;
+}
+
+@media (max-width: 1199px) {
+  .display-3 {
+    font-size: 3.4rem;
+  }
+  
+}
+/* narrow screen */
+@media (max-width: 768px) {
+  .display-3 {
+    font-size: 2.5rem;
+  }
+  .header-dropdown {
+  position: absolute;
+  top: 32px;
+  right: 15px;
+  width: 250px;
+  height: 20px; 
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+ }
+  .header-flipmode {
+  position: absolute;
+  text-align: right;
+  top: 62px;
+  right: 30px;
+  width: 230px;
+  height: 20px; 
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+  }  
+    
+  .header-bar {
+  background-color: #292929;
+  height:110px;
+    }    
+  .app-title {
+  text-align: left;
+  position: absolute;
+  top: 2px;
+  left: 20px;
+  width: 16px;
+  font-size: 1.5rem;
+  color: white; 
+  font-weight: bold;
+ } 
+  .question {
+  text-align: center;
+  top: 10px;
+  font-size: 1.5rem;
+  height:80px;
+  color: black; 
+  font-weight: bold;
+  }
+
+.btn_sub {
+  text-align: center;
+  position: absolute;
+  border: 2px blue;
+  background-color: #34A56F;  
+  margin-right: 50;
+  right:30px;
+  width: 100px;
+  height: 30px;
+  margin-left:auto;
+  display:block;
+  top: 170px;
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+  }  
+
+.btn_flip {
+  text-align: center;
+  position: absolute;
+  border: 2px blue;
+  background-color: #34A56F;  
+  margin-right: 50;
+  left:30px;
+  width: 100px;
+  height: 30px;
+  margin-left:auto;
+  display:block;
+  top: 170px;
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+  }  
+
+.entry_typesubmit {
+  text-align: left;
+  position: absolute;
+  border: 2px blue;
+  background-color: white;  
+  margin-right: 50;
+  right:30px;
+  width: 320px;
+  height: 30px;
+  margin-left:auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display:block;
+  top: 220px;
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+  }  
+
+.btn_typesubmit {
+  text-align: center;
+  position: absolute;
+  border: 2px blue;
+  background-color: #34A56F;  
+  margin-right: 50;
+  right:30px;
+  width: 100px;
+  height: 30px;
+  margin-left:auto;
+  display:block;
+  top: 260px;
+  font-size: 1rem;
+  color: black; 
+  font-weight: bold;
+  }  
+    
+
+}
+
+
+.card {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #728FCE;
+}
+
+
